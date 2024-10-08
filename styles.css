@@ -1,8 +1,8 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Avenir', Arial, sans-serif;
     background-color: black;
-    color: gold;
+    color: #b8860b; /* Darker gold colour */
     margin: 0;
     padding: 0;
     text-align: center;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    color: gold;
+    color: #b8860b; /* Darker gold */
     margin-top: 50px;
 }
 
@@ -35,15 +35,10 @@ p, ul, li {
 }
 
 a {
-    color: gold;
+    color: #b8860b; /* Darker gold */
     text-decoration: none;
 }
 
-footer {
-    background-color: #333;
-    color: gold;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+a:hover {
+    text-decoration: underline;
 }
